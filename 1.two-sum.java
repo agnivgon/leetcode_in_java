@@ -5,6 +5,10 @@
  */
 
 // @lc code=start
+// TC: O(N) SC: O(N)
+// Loop through the number list, check if the difference value is already present in the map. 
+// If it's present take the current number index and get the index value of the diff number from the map.
+// If not present then add the number with it's index value in the map.
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] ans = new int[2];
